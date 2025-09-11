@@ -1,0 +1,125 @@
+PS C:\Apache24\htdocs\iap_eleanor_opolo_189723> git add .        
+PS C:\Apache24\htdocs\iap_eleanor_opolo_189723> git commit -m "Initial commit without .env"
+>> 
+[main (root-commit) 1a8fc7a] Initial commit without .env
+ 110 files changed, 12922 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 ClassAutoLoad.php
+ create mode 100644 config.php
+ create mode 100644 connect.php
+ create mode 100644 forms/forms.php
+ create mode 100644 global/sendMail.php
+ create mode 100644 index.php
+ create mode 100644 layouts/layouts.php
+ create mode 100644 listUsers.php
+ create mode 100644 login.php
+ create mode 100644 mailing.php
+ create mode 160000 plugins/PHPMailer
+ create mode 100644 plugins/composer.json
+ create mode 100644 plugins/composer.lock
+ create mode 100644 plugins/vendor/autoload.php
+ create mode 100644 plugins/vendor/composer/ClassLoader.php      
+ create mode 100644 plugins/vendor/composer/InstalledVersions.php
+ create mode 100644 plugins/vendor/composer/LICENSE
+ create mode 100644 plugins/vendor/composer/autoload_classmap.php
+ create mode 100644 plugins/vendor/composer/autoload_files.php   
+ create mode 100644 plugins/vendor/composer/autoload_namespaces.php
+ create mode 100644 plugins/vendor/composer/autoload_psr4.php    
+ create mode 100644 plugins/vendor/composer/autoload_real.php    
+ create mode 100644 plugins/vendor/composer/autoload_static.php  
+ create mode 100644 plugins/vendor/composer/installed.json       
+ create mode 100644 plugins/vendor/composer/installed.php        
+ create mode 100644 plugins/vendor/composer/platform_check.php   
+ create mode 100644 plugins/vendor/graham-campbell/result-type/LICENSE
+ create mode 100644 plugins/vendor/graham-campbell/result-type/composer.json
+ create mode 100644 plugins/vendor/graham-campbell/result-type/src/Error.php
+ create mode 100644 plugins/vendor/graham-campbell/result-type/src/Result.php
+ create mode 100644 plugins/vendor/graham-campbell/result-type/src/Success.php
+ create mode 100644 plugins/vendor/phpoption/phpoption/LICENSE   
+ create mode 100644 plugins/vendor/phpoption/phpoption/composer.json
+ create mode 100644 plugins/vendor/phpoption/phpoption/src/PhpOption/LazyOption.php
+ create mode 100644 plugins/vendor/phpoption/phpoption/src/PhpOption/None.php
+ create mode 100644 plugins/vendor/phpoption/phpoption/src/PhpOption/Option.php
+ create mode 100644 plugins/vendor/phpoption/phpoption/src/PhpOption/Some.php
+ create mode 100644 plugins/vendor/symfony/polyfill-ctype/Ctype.php
+ create mode 100644 plugins/vendor/symfony/polyfill-ctype/LICENSE
+ create mode 100644 plugins/vendor/symfony/polyfill-ctype/README.md
+ create mode 100644 plugins/vendor/symfony/polyfill-ctype/bootstrap.php
+ create mode 100644 plugins/vendor/symfony/polyfill-ctype/bootstrap80.php
+ create mode 100644 plugins/vendor/symfony/polyfill-ctype/composer.json
+ create mode 100644 plugins/vendor/symfony/polyfill-mbstring/LICENSE
+ create mode 100644 plugins/vendor/symfony/polyfill-mbstring/Mbstring.php
+ create mode 100644 plugins/vendor/symfony/polyfill-mbstring/README.md
+ create mode 100644 plugins/vendor/symfony/polyfill-mbstring/Resources/unidata/caseFolding.php
+ create mode 100644 plugins/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php
+ create mode 100644 plugins/vendor/symfony/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php
+ create mode 100644 plugins/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php
+ create mode 100644 plugins/vendor/symfony/polyfill-mbstring/bootstrap.php
+ create mode 100644 plugins/vendor/symfony/polyfill-mbstring/bootstrap80.php
+ create mode 100644 plugins/vendor/symfony/polyfill-mbstring/composer.json
+ create mode 100644 plugins/vendor/symfony/polyfill-php80/LICENSE
+ create mode 100644 plugins/vendor/symfony/polyfill-php80/Php80.php
+ create mode 100644 plugins/vendor/symfony/polyfill-php80/PhpToken.php
+ create mode 100644 plugins/vendor/symfony/polyfill-php80/README.md
+ create mode 100644 plugins/vendor/symfony/polyfill-php80/Resources/stubs/Attribute.php
+ create mode 100644 plugins/vendor/symfony/polyfill-php80/Resources/stubs/PhpToken.php
+ create mode 100644 plugins/vendor/symfony/polyfill-php80/Resources/stubs/Stringable.php
+ create mode 100644 plugins/vendor/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php
+ create mode 100644 plugins/vendor/symfony/polyfill-php80/Resources/stubs/ValueError.php
+ create mode 100644 plugins/vendor/symfony/polyfill-php80/bootstrap.php
+ create mode 100644 plugins/vendor/symfony/polyfill-php80/composer.json
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/LICENSE      
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/composer.json
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Dotenv.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Exception/ExceptionInterface.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Exception/InvalidEncodingException.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Exception/InvalidFileException.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Exception/InvalidPathException.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Exception/ValidationException.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Loader/Loader.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Loader/LoaderInterface.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Loader/Resolver.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Parser/Entry.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Parser/EntryParser.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Parser/Lexer.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Parser/Lines.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Parser/Parser.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Parser/ParserInterface.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Parser/Value.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/AdapterInterface.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/ApacheAdapter.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/ArrayAdapter.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/EnvConstAdapter.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/GuardedWriter.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/ImmutableWriter.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/MultiReader.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/MultiWriter.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/PutenvAdapter.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/ReaderInterface.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/ReplacingWriter.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/ServerConstAdapter.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/Adapter/WriterInterface.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/AdapterRepository.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/RepositoryBuilder.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Repository/RepositoryInterface.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Store/File/Paths.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Store/File/Reader.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Store/FileStore.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Store/StoreBuilder.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Store/StoreInterface.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Store/StringStore.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Util/Regex.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Util/Str.php
+ create mode 100644 plugins/vendor/vlucas/phpdotenv/src/Validator.php
+ create mode 100644 signup.php
+ create mode 100644 submit.php
+PS C:\Apache24\htdocs\iap_eleanor_opolo_189723> git push
+Enumerating objects: 142, done.
+Counting objects: 100% (142/142), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (132/132), done.
+Writing objects: 100% (142/142), 92.74 KiB | 1.04 MiB/s, done.
+Total 142 (delta 26), reused 0 (delta 0), pack-reused 0 (from 0) 
+remote: Resolving deltas: 100% (26/26), done.
+To https://github.com/lindaopolo7896/iap_eleanor_opolo_189723.git
+ * [new branch]      main -> main
